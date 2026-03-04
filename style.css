@@ -248,6 +248,14 @@ button:disabled {
     cursor: not-allowed;
     box-shadow: none;
 }
+.jealousy-quote {
+    border-left: 4px solid #d81b60;
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-style: italic;
+    background-color: rgba(216, 27, 96, 0.05);
+    color: #333;
+}
 
 /* Адаптация под мобильные устройства */
 @media (max-width: 600px) {
@@ -258,3 +266,4 @@ button:disabled {
     h1 { font-size: 1.8rem; }
     .page { font-size: 16px; }
 }
+
