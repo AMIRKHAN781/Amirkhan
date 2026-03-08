@@ -39,3 +39,13 @@ btnPrev.addEventListener('click', () => {
 });
 
 updatePages();
+const cover = document.getElementById('book-cover');
+const startBtn = document.getElementById('start-reading');
+
+startBtn.addEventListener('click', () => {
+    cover.classList.add('cover-hidden');
+    // Чтобы страница не дергалась, можно добавить задержку удаления из DOM
+    setTimeout(() => {
+        cover.style.display = 'none';
+    }, 1000);
+});
